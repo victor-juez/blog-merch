@@ -1,0 +1,35 @@
+/* ===== RESPONSIVE OPTIMIZADO ===== */
+@media (max-width: 1300px) {
+  .grid-4 { 
+    grid-template-columns: repeat(3, 1fr); }
+  .pie-grid { 
+    grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 900px) {
+  .grid-3, .grid-4 { 
+    grid-template-columns: repeat(2, 1fr); }
+  .formulario-grid { 
+    grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .cabecera-interior { 
+    flex-direction: column; 
+    text-align: center; 
+    gap: 10px; 
+    padding: 40px;}
+  
+  .menu { 
+    justify-content: center; 
+    width: 100%; }
+  
+  .submenu { 
+    position: static; 
+    box-shadow: none; 
+    background: rgba(255,255,255,0.03);
+  }
+
+  .grid-3, .grid-4, .pie-grid { 
+    grid-template-columns: 1fr; }
+}

@@ -1,0 +1,120 @@
+/* ===== COMPONENTS OPTIMIZADO ===== */
+.portada-caja {
+  background: linear-gradient(135deg, rgba(29,66,138,.1), rgba(200,16,46,.1));
+  border: 1px solid #253143;
+  border-radius: 16px;
+  padding: 26px;
+}
+
+.boton {
+  display: flex;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.boton-principal { 
+  background: #1d428a; 
+  color: #fff; }
+.boton-secundario { 
+  border-color: #253143; 
+  background: #141a23; 
+  color: #fff;}
+
+.tarjeta {
+  background: #141a23;
+  border: 1px solid #253143;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform .25s ease;
+
+}
+
+.tarjeta:hover { 
+  transform: translateY(-4px); 
+  border-color: #355173; }
+
+.tarjeta-cuerpo { 
+  padding: 16px; 
+  flex-grow: 1;}
+
+.precio { 
+  font-weight: 700; 
+  color: #eaf0f6; }
+
+.precio-antes { 
+  color: #9fb0c3; 
+  text-decoration: line-through; 
+  font-size: 0.85rem; 
+  margin-left: 8px;
+}
+
+/* Slider automático */
+.slider {
+  margin: 20px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #253143;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  animation: slideShow 20s infinite;
+}
+
+.slides img { 
+  width: 20%; 
+  aspect-ratio: 16/7; 
+  object-fit: cover; }
+
+@keyframes slideShow {
+  0%, 15% { transform: translateX(0); }
+  20%, 35% { transform: translateX(-20%); }
+  40%, 55% { transform: translateX(-40%); }
+  60%, 75% { transform: translateX(-60%); }
+  80%, 95% { transform: translateX(-80%); }
+  100% { transform: translateX(0); }
+}
+
+/* Filtros y Formularios */
+.filter-bar { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  margin-bottom: 24px; }
+
+.filtro-chip {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid #253143;
+  background: #141a23;
+  color: #9fb0c3;
+  font-weight: 600;
+}
+
+.filtro-chip.activo { 
+  background: #1b2430; 
+  color: #eaf0f6; 
+  border-color: #fdb927; }
+
+.formulario-caja { 
+  background: #141a23; 
+  padding: 20px; 
+  border-radius: 16px; 
+  border: 1px solid #253143; }
+
+.formulario-grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 14px; }
+
+input, select, textarea {
+  width: 100%;
+  background: #0f1520;
+  color: #eaf0f6;
+  border: 1px solid #253143;
+  padding: 10px;
+  border-radius: 10px;
+}
