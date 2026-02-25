@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<miweb>
+   <!-- index -->
+	https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/html/index.html
+   <!-- Sección de Productos -->
+   <tienda>
+     https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/html/tienda.html
+   </tienda>
+
+   <Zapatillas>
+    https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/html/zapatillas.html
+   </Zapatillas>
+
+   <Camisetas>
+    https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/html/camisetas.html
+   </Camiseta>
+
+   <Accesorios>
+    https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/html/accesorios.html
+   </Accesorios>
+
+   <Noticias>
+    https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/html/noticias.html
+   </noticias>
+
+   <Equipo>
+    https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/html/equipos.html
+   </Equipo>
+
+   <Contacto>
+    https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/html/contacto.html
+   </Contacto>
+ 
+  <!-- css -->
+   <base>
+      https://github.com/victor-juez/blog-merch/blob/12f412626ea6b599a6877a46519054aac509a5a0/css/base.css
+   </base>
+   <adaptable>
+      https://github.com/victor-juez/blog-merch/blob/998378da1c61068a56b2454c5d550a821a37eb80/css/adaptable.css
+   </adaptable>
+   <componentes>
+      https://github.com/victor-juez/blog-merch/blob/998378da1c61068a56b2454c5d550a821a37eb80/css/componentes.css
+   </componentes>
+   <maquetacion>
+      https://github.com/victor-juez/blog-merch/blob/998378da1c61068a56b2454c5d550a821a37eb80/css/maquetacion.css
+   </maquetacion>
+
